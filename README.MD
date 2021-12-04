@@ -27,7 +27,7 @@ yarn install
 
 ### Code sample
 
-The repos has some files that you should remove or change at cloning time:
+The repo has some files that you should remove or change at cloning time:
 - [.github/dependabot.yml](.github/dependabot.yml)
 - [src/index.ts](src/index.ts)
 - [tests/checkup.test.ts](tests/checkup.test.ts)
