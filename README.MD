@@ -1,3 +1,4 @@
+[![CI testing](https://github.com/Meyclem/typescript-boilerplate/actions/workflows/test.yml/badge.svg)](https://github.com/Meyclem/typescript-boilerplate/actions/workflows/test.yml)
 # TypeScript Boilerplate
 
 This is a bare simple TS boilerplate. Feel free to clone it and use it as you want.
@@ -8,6 +9,7 @@ It comes with some packages pre-installed:
 - [TypeScript](https://www.typescriptlang.org/docs/home.html)
 - [eslint](https://eslint.org/)
 - [prettier](https://prettier.io/)
+- [jest](https://jestjs.io/)
 
 ## Usage
 
