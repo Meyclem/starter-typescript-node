@@ -18,13 +18,7 @@ jobs:
       GITHUB_TOKEN: ${{secrets.GH_TOKEN}}
 
     steps:
-      - id: dependabot
-        uses: dependabot/fetch-metadata@v1.1.1
-        with:
-          github-token: ${{ secrets.GH_TOKEN }}
-
       - name: auto approve & merge
-        if: ${{ steps.auto-merge.conclusion == 'success' }}
         run: |
           gh pr review --approve "$PR_URL"
           gh pr comment -b "@dependabot squash and merge" "$PR_URL"
