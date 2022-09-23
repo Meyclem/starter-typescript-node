@@ -3,9 +3,17 @@ updates:
 - package-ecosystem: npm
   directory: "/"
   schedule:
-    interval: monthly
+    interval: daily
     time: "10:00"
     timezone: "Europe/Paris"
   open-pull-requests-limit: 10
   reviewers:
   - Meyclem
+- package-ecosystem: "github-actions"
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "10:00"
+    timezone: "Europe/Paris"
+  reviewers:
+    - "Meyclem"
