@@ -19,7 +19,7 @@ It comes with some packages pre-installed:
 
 The boilerplate uses:
 
-- node `16.16.0`.
+- node `18.12.0`.
 - yarn `1.22.19`
   You can manuall install it or use [asdf](https://github.com/asdf-vm/asdf).
 
