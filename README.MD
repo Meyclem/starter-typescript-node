@@ -1,6 +1,6 @@
 [![CI testing](https://github.com/Meyclem/typescript-boilerplate/actions/workflows/test.yml/badge.svg)](https://github.com/Meyclem/typescript-boilerplate/actions/workflows/test.yml)
 
-# TypeScript Boilerplate
+# [starter] TypeScript NodeJS
 
 This is a bare simple TS boilerplate. Feel free to clone it and use it as you want.
 You can also click on the `Use this template` button to create a new repo with the same structure.

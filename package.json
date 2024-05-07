@@ -1,7 +1,7 @@
 {
-  "name": "ts-boilerplate",
+  "name": "starter-typescript-node",
   "version": "0.0.1",
-  "main": "index.ts",
+  "main": "src/index.ts",
   "license": "MIT",
   "scripts": {
     "build": "tsc",
