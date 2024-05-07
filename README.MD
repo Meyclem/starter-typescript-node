@@ -3,6 +3,9 @@
 # TypeScript Boilerplate
 
 This is a bare simple TS boilerplate. Feel free to clone it and use it as you want.
+You can also click on the `Use this template` button to create a new repo with the same structure.
+
+In any case, feel free to use it as you want 😁👍
 
 ## Dependencies
 
@@ -21,12 +24,10 @@ The boilerplate uses:
 
 - node `20.12.2`.
 - yarn `1.22.19`
-  You can manuall install it or use [asdf](https://github.com/asdf-vm/asdf).
 
-```bash
-asdf install
-yarn install
-```
+In case you don't have them install, you can
+- use [asdf](https://asdf-vm.com/guide/getting-started.html#_2-download-asdf) which will install the right versions based on the `.tool-versions` file.
+- head to the [nodejs](https://nodejs.org/en/download/) and [yarn](https://classic.yarnpkg.com/en/docs/install) websites to install them manually.
 
 ### Code sample
 
