@@ -19,7 +19,7 @@ It comes with some packages pre-installed:
 
 The boilerplate uses:
 
-- node `18.12.0`.
+- node `20.12.2`.
 - yarn `1.22.19`
   You can manuall install it or use [asdf](https://github.com/asdf-vm/asdf).
 
@@ -30,7 +30,7 @@ yarn install
 
 ### Code sample
 
-The repo has some files that you should remove or change at cloning time:
+The repo has some files that should be removed or changed at cloning time:
 
 - [.github/dependabot.yml](.github/dependabot.yml)
 - [src/index.ts](src/index.ts)
@@ -57,6 +57,8 @@ yarn lint
 ```
 
 ### Tests
+
+🔎 The only test is there to be sure the code runs in CI without issue due to possible failed dependancy update.
 
 ```bash
 yarn test
