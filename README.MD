@@ -7,54 +7,51 @@ You can also click on the `Use this template` button to create a new repo with t
 
 In any case, feel free to use it as you want 😁👍
 
-## Dependencies
-
-It comes with some packages pre-installed:
-
-- [TypeScript](https://www.typescriptlang.org/docs/home.html)
-- [eslint](https://eslint.org/)
-- [prettier](https://prettier.io/)
-- [jest](https://jestjs.io/)
-
 ## Usage
 
 ### Installation
 
-The boilerplate uses:
+This boilerplate uses:
 
-- node `20.12.2`.
-- yarn `1.22.19`
+- node `22.19.0`.
+- npm (comes with Node.js)
 
 In case you don't have them install, you can
 - use [asdf](https://asdf-vm.com/guide/getting-started.html#_2-download-asdf) which will install the right versions based on the `.tool-versions` file.
-- head to the [nodejs](https://nodejs.org/en/download/) and [yarn](https://classic.yarnpkg.com/en/docs/install) websites to install them manually.
+- head to the [nodejs](https://nodejs.org/en/download/) website to install it manually (npm comes bundled with Node.js).
 
 ### Code sample
 
 The repo has some files that should be removed or changed at cloning time:
 
 - [.github/dependabot.yml](.github/dependabot.yml)
-- [src/index.ts](src/index.ts)
-- [tests/checkup.test.ts](tests/checkup.test.ts)
+- [.github/worflows](.github/worflows)
+- [CODEOWNERS](CODEOWNERS)
+- [LICENSE](LICENSE)
 
-### Start the main file
-
+### Local development
 ```bash
-yarn start
+npm run dev
 ```
 
-### Build the JS files
+### Build
 
 ```bash
-yarn build
+npm run build
 ```
 
-### Linter
+### Start
+
+```bash
+npm start
+```
+
+### Lint
 
 You can use eslint to help you format your code.
 
 ```bash
-yarn lint
+npm run lint
 ```
 
 ### Tests
@@ -62,5 +59,5 @@ yarn lint
 🔎 The only test is there to be sure the code runs in CI without issue due to possible failed dependancy update.
 
 ```bash
-yarn test
+npm run test
 ```
