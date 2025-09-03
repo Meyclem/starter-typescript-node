@@ -1,3 +1,5 @@
+import { describe, it, expect } from "vitest";
+
 import testFunction from "../src/index";
 
 describe("Check up test", () => {

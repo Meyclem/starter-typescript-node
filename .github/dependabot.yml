@@ -1,19 +1,33 @@
 version: 2
 updates:
-- package-ecosystem: npm
-  directory: "/"
-  schedule:
-    interval: daily
-    time: "10:00"
-    timezone: "Europe/Paris"
-  open-pull-requests-limit: 10
-  reviewers:
-  - Meyclem
-- package-ecosystem: "github-actions"
-  directory: "/"
-  schedule:
-    interval: daily
-    time: "10:00"
-    timezone: "Europe/Paris"
-  reviewers:
-    - "Meyclem"
+  - package-ecosystem: npm
+    directory: "/"
+    schedule:
+      interval: daily
+      time: "10:00"
+      timezone: "Europe/Paris"
+    open-pull-requests-limit: 3
+    assignees:
+      - Meyclem
+    groups:
+      eslint-dependencies:
+        patterns:
+          - "*eslint*"
+          - "globals"
+      dev-dependencies:
+        dependency-type: "development"
+        patterns:
+          - "*" # Captures all remaining dev dependencies
+      prod-dependencies:
+        dependency-type: "production"
+        patterns:
+        - "*" # Captures all remaining prod dependencies
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: daily
+      time: "17:00"
+      timezone: "Europe/Paris"
+    open-pull-requests-limit: 3
+    assignees:
+      - Meyclem
