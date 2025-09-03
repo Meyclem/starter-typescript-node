@@ -1,19 +1,16 @@
 version: 2
 updates:
-- package-ecosystem: npm
-  directory: "/"
-  schedule:
-    interval: daily
-    time: "10:00"
-    timezone: "Europe/Paris"
-  open-pull-requests-limit: 10
-  reviewers:
-  - Meyclem
-- package-ecosystem: "github-actions"
-  directory: "/"
-  schedule:
-    interval: daily
-    time: "10:00"
-    timezone: "Europe/Paris"
-  reviewers:
-    - "Meyclem"
+  - package-ecosystem: npm
+    directory: "/"
+    schedule:
+      interval: daily
+      time: "10:00"
+      timezone: "Europe/Paris"
+    open-pull-requests-limit: 3
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: daily
+      time: "17:00"
+      timezone: "Europe/Paris"
+    open-pull-requests-limit: 3
