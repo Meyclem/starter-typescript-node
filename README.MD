@@ -7,6 +7,34 @@ You can also click on the `Use this template` button to create a new repo with t
 
 In any case, feel free to use it as you want 😁👍
 
+## Dependencies
+
+It comes with some packages pre-installed:
+
+- [TypeScript](https://www.typescriptlang.org/docs/home.html)
+- [ESLint](https://eslint.org/)
+- [Vitest](https://vitest.dev/)
+
+## VS Code Setup
+
+This project includes VS Code configuration for a consistent development experience:
+
+### Recommended Extensions
+
+When you open this project in VS Code, you'll be prompted to install recommended extensions:
+
+- **ESLint** - JavaScript/TypeScript linting and formatting
+- **Vitest** - Testing framework integration
+
+### Workspace Settings
+
+The project includes pre-configured settings for:
+- Format on save with ESLint
+- Auto-fix ESLint issues on save
+- Organize imports automatically
+- Consistent tab size (2 spaces)
+- Line length rulers at 80 and 120 characters
+
 ## Usage
 
 ### Installation
