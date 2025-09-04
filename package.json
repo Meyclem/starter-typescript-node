@@ -1,7 +1,13 @@
 {
   "name": "starter-typescript-node",
   "version": "0.0.1",
-  "description": "",
+  "description": "A starter project for TypeScript and Node.js",
+  "author": "Meyclem",
+  "keywords": [
+    "starter",
+    "typescript",
+    "nodejs"
+  ],
   "main": "dist/index.js",
   "type": "module",
   "scripts": {
@@ -17,12 +23,6 @@
     "test:coverage": "vitest run --coverage",
     "test:coverage:watch": "vitest run --coverage --watch"
   },
-  "keywords": [
-    "starter",
-    "typescript",
-    "nodejs"
-  ],
-  "author": "Meyclem",
   "dependencies": {},
   "devDependencies": {
     "@eslint/js": "9.34.0",
