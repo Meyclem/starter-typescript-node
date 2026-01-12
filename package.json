@@ -27,7 +27,7 @@
   "devDependencies": {
     "@eslint/js": "9.39.2",
     "@stylistic/eslint-plugin": "5.7.0",
-    "@types/node": "25.0.3",
+    "@types/node": "25.0.6",
     "@typescript-eslint/eslint-plugin": "8.52.0",
     "@typescript-eslint/parser": "8.52.0",
     "@vitest/coverage-v8": "4.0.16",
@@ -38,7 +38,7 @@
     "ts-node": "10.9.2",
     "tsx": "4.21.0",
     "typescript": "5.9.3",
-    "vite-tsconfig-paths": "6.0.3",
+    "vite-tsconfig-paths": "6.0.4",
     "vitest": "4.0.16"
   }
 }
